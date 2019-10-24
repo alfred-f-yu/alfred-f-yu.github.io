@@ -5,11 +5,11 @@
 数据还原结果显示
 ================
 
-.. image:: ./_static/dr_results.png
+.. image:: ./_images/dr_results.png
  
 1.  Aquarium使用5种不同管线来完成数据还原。在“Data reduction”标题栏上显示这五个管线的当前状态，具体含义如下：
 
-.. image:: ./_static/dr_results_table.png
+.. image:: ./_images/dr_results_table.png
 	:align: center
 
 2.  五个管线的选项卡。请单击不同的管线查看该管线的处理结果。
@@ -17,7 +17,7 @@
 4.  Beamcenter和distance，实验记录值与修正值的比较。如果发现初始值和记录值有很大变化，则需要特别关注，具体分析原因。
 5.  各种统计图表。其中“CC(1/2) and CC_Anom against Resolution”可用于判断数据反常信号的强弱。
 
-.. image:: ./_static/CC_Anom.svg
+.. image:: ./_images/CC_Anom.svg
 
 可通过CC_Anom（蓝色曲线）与分辨率壳层的作图，判断各个分辨率壳层中反常散射信号的强弱。CC_Anom越接近1，该壳层反常信号越强。
 
@@ -37,7 +37,7 @@
 1.  使用pointless将unmerged hkl文件转换为mtz文件
 2.  运行reindex或aimless(可在CCP4图形界面下进行)
 
-.. image:: ./_static/Rmerge_vs_Resolution.png
+.. image:: ./_images/Rmerge_vs_Resolution.png
 	:align: center
 
 .. code:: bash
@@ -51,10 +51,10 @@
 
 如本例中将排除75到200的衍射图，并将高分辨率cutoff到1.5埃。也可以在CCP4的图形界面中进行。
 
-.. image:: ./_static/Reindex.png
+.. image:: ./_images/Reindex.png
 	:align: center
 
-.. image:: ./_static/Aimless.png
+.. image:: ./_images/Aimless.png
 	:align: center
  
  

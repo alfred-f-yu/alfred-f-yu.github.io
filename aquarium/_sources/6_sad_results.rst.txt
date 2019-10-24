@@ -4,7 +4,7 @@ SAD相位解析
  
 1.  Aquarium使用Porpoise_SAD来完成SAD相位解析。如果SEAL判断数据还原管线给出的结果有反常散射信息，SEAL会自动运行Porpoise_SAD管线。“Porpoise_SAD”标题栏上显示以这五个数据还原管线的结果进行SAD相位解析的当前状态，具体含义如下：
 
-.. image:: ./_static/sad_results_table.png
+.. image:: ./_images/sad_results_table.png
     :align: center
 
 2.  五个不同数据还原结果进行SAD相位解析的选项卡。请单击不同的管线查看该管线还原结果进行SAD求解相位的结果。
@@ -20,7 +20,7 @@ SAD相位解析
  * “View”单击查看建模的结果和电子密度图。
  * “Download”单击下载建模的结果和电子密度图。
 
-.. image:: ./_static/map.jpg
+.. image:: ./_images/map.jpg
     :align: center
  
 在SealWeb中可直接查看建模的结果和对应的电子密度图。可以支持Cartoon，Tube和Ball+Stick等显示模式。
