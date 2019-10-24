@@ -20,7 +20,7 @@ SAD相位解析
  * “View”单击查看建模的结果和电子密度图。
  * “Download”单击下载建模的结果和电子密度图。
 
-.. image:: ./_static/map.png
+.. image:: ./_static/map.jpg
     :align: center
  
 在SealWeb中可直接查看建模的结果和对应的电子密度图。可以支持Cartoon，Tube和Ball+Stick等显示模式。

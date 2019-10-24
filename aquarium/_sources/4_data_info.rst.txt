@@ -2,7 +2,7 @@
 数据基本信息
 ************
 
-.. image:: ./_static/data_info.png
+.. image:: ./_static/data_info.jpg
  
 1.	实验数据的保存位置。
 2.	实验数据的收集时间。
@@ -11,7 +11,7 @@
 5.	单击该缩略图看查看原始衍射数据。
 6.	每张衍射图的质量评估（与数据还原无关）。
 
-.. image:: ./_static/rawimage_view.png
+.. image:: ./_static/rawimage_view.jpg
  
 可通过SealWeb直接查看原始衍射图。支持放大、缩小、调节亮度，自动亮度，可显示分辨率。
 

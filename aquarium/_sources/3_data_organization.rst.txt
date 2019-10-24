@@ -23,7 +23,7 @@ Visits信息页
 数据的处理结果摘要页
 ========================
 
-.. image:: ./_static/data_summary.png
+.. image:: ./_static/data_summary.jpg
 	:align: center
  
 1.	通过数据名称筛选数据，不区分大小写，显示所有包含指定字符串的数据。
