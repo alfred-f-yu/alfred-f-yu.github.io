@@ -1,0 +1,248 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>5. 数据还原 &mdash; aquarium-manual 0.1 文档</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="6. SAD相位解析" href="6_sad_results.html" />
+    <link rel="prev" title="4. 数据基本信息" href="4_data_info.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> aquarium-manual
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="1_introduction.html">1. 简介</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2_architecture.html">2. 架构</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3_data_organization.html">3. 实验数据的组织</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4_data_info.html">4. 数据基本信息</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">5. 数据还原</a></li>
+<li class="toctree-l1"><a class="reference internal" href="6_sad_results.html">6. SAD相位解析</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">aquarium-manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>5. 数据还原</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/5_data_results.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="id1">
+<h1>5. 数据还原<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<div class="section" id="id2">
+<h2>5.1. 数据还原结果显示<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<img alt="_images/dr_results.png" src="_images/dr_results.png" />
+<ol class="arabic simple">
+<li><p>Aquarium使用5种不同管线来完成数据还原。在“Data reduction”标题栏上显示这五个管线的当前状态，具体含义如下：</p></li>
+</ol>
+<img alt="_images/dr_results_table.png" class="align-center" src="_images/dr_results_table.png" />
+<ol class="arabic simple" start="2">
+<li><p>五个管线的选项卡。请单击不同的管线查看该管线的处理结果。</p></li>
+<li><p>SEAL会对每一个管线的处理结果进行打分，标记星号的管线是打分最高的管线。</p></li>
+<li><p>Beamcenter和distance，实验记录值与修正值的比较。如果发现初始值和记录值有很大变化，则需要特别关注，具体分析原因。</p></li>
+<li><p>各种统计图表。其中“CC(1/2) and CC_Anom against Resolution”可用于判断数据反常信号的强弱。</p></li>
+</ol>
+<img alt="_images/CC_Anom.svg" src="_images/CC_Anom.svg" /><p>可通过CC_Anom（蓝色曲线）与分辨率壳层的作图，判断各个分辨率壳层中反常散射信号的强弱。CC_Anom越接近1，该壳层反常信号越强。</p>
+</div>
+<div class="section" id="id3">
+<h2>5.2. 修改自动处理结果的空间群，分辨率或排除部分衍射图<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
+<p>自动处理结果的空间群，分辨率或排除部分衍射图无需重新运行XDS或DIALS重新积分，所需要用到的软件为：</p>
+<ul class="simple">
+<li><p>将XDS或DIALS的处理结果导入CCP4：Pointless</p></li>
+<li><p>调整衍射分辨率：Aimless</p></li>
+<li><p>修改空间群：Reindex和Aimless</p></li>
+<li><p>排除部分衍射图：Aimless</p></li>
+</ul>
+<p>以上软件均包含在CCP4软件包内。</p>
+<p>数据还原结果中提供了一个XDS_ASCII.HKL格式的文件，文件名为*xxx_unmerged.hkl*。
+1.  使用pointless将unmerged hkl文件转换为mtz文件
+2.  运行reindex或aimless(可在CCP4图形界面下进行)</p>
+<img alt="_images/Rmerge_vs_Resolution.png" class="align-center" src="_images/Rmerge_vs_Resolution.png" />
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pointless –c xdsin xxx_unmerged.hkl hklout xds_sorted.mtz
+aimless hklin xds_sorted.mtz hklout scaled.mtz &gt; aimless.log &lt;&lt; +
+RESOLUTION LOW <span class="m">999</span> HIGH <span class="m">1</span>.5
+EXCLUDE BATCH <span class="m">75</span> to <span class="m">200</span>
+SCALES CONSTANT
++
+</pre></div>
+</div>
+<p>如本例中将排除75到200的衍射图，并将高分辨率cutoff到1.5埃。也可以在CCP4的图形界面中进行。</p>
+<img alt="_images/Reindex.png" class="align-center" src="_images/Reindex.png" />
+<img alt="_images/Aimless.png" class="align-center" src="_images/Aimless.png" />
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="6_sad_results.html" class="btn btn-neutral float-right" title="6. SAD相位解析" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="4_data_info.html" class="btn btn-neutral float-left" title="4. 数据基本信息" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Feng Yu
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
